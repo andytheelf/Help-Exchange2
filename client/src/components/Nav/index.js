@@ -16,7 +16,7 @@ function Navigation() {
                     src="https://img.icons8.com/cotton/64/000000/volunteering.png" 
                     alt='help-exchange'
                     className="justify-space-between"
-                /> Help Exchange
+                />
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
@@ -71,11 +71,11 @@ function Navigation() {
                                             Login
                                 </NavDropdown.Item>
                                 <NavDropdown.Item href="/signup">
-                                        <img src="https://img.icons8.com/ios-filled/50/000000/login-rounded-right.png"
+                                        {/* <img src="https://img.icons8.com/ios-filled/50/000000/login-rounded-right.png"
                                         alt='login'
                                         width='50'
                                         height='50'
-                                        />
+                                        /> */}
                                             Sign Up
                                 </NavDropdown.Item>
                                 </>
